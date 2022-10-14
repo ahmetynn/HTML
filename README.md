@@ -1,1 +1,1 @@
-Html Temel Yapı Taşlarını Öğrenme
+Html Temel Yapı Taşlarını Öğrenme.
