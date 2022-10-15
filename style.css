@@ -1,0 +1,12 @@
+a.button{
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a.button-red{
+    background-color: red;
+}
