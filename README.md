@@ -1,2 +1,2 @@
 Html Temel Yapı Taşlarını Öğrenme.
-Eğitimimi Prototürk.com alıntılıyarak yapıyorum.
+Eğitimimi "https://prototurk.com/" alıntılıyarak yapıyorum.
