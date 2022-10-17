@@ -7,6 +7,157 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="" method="post"></form>
+    <input type="text"><br>
+    <input type="radio"><br>
+    <input type="checkbox"><br>
+    <input type="submit"><br>
+    <input type="button"><br>
+    <form>
+        <label for="fname">ADIN:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">SOYADIN:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form><br>
+
+    <button type="button">GÖNDER</button><br>
     
+    <p>Takımını seç:
+        <select name="takim" id="">
+            <option value="gs">Galatasary</option>
+                <option value="fb">Fenerbahçe</option>
+            <option value="bjk">Beşiktaş</option>
+        </select>
+    </p>
+
+
+    <textarea name="hakkinda" cols="30" rows="10"></textarea>
+
+<form action="" method="post">
+    <fieldset>
+
+        <legend>Kişisel Bilgiler</legend>
+        <label for="name">Ad-Soyad</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="Phone">Telefon</label><br>
+        <input type="Phone" id="Phone" name="Phone"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Sosyal Medya</legend>
+        <label for="Facebook">Facebook</label><br>
+        <input type="text" id="Facebook" name="Facebook"><br>
+        <label for="Twitter">Twitter</label><br>
+        <input type="text" name="Twitter" id="Twitter">
+
+    </fieldset><br>
+
+    <button type="submit">Kaydet</button>
+</form><br>
+
+<input type="text" placeholder="Kullanıcı adı"><br>
+<input type="text" value="Kullanıcı Adı"><br>
+
+<textarea name="hakkinda" id="" cols="30" rows="10">Metin</textarea><br>
+
+<select name="cinsiyet">
+
+    <option value="">Cinsiyeti Seçin</option>
+    <option value="1">Erkek</option>
+    <option value="2">Kadın</option>
+
+</select><br>
+
+<select name="cinsiyet2" id="" multiple size="1">
+    <option value="">elma</option>
+    <option value="1">karpuz</option>
+    <option value="2">muz</option>
+
+</select><br>
+
+<select name="cinsiyet3">
+    <option value="">muz</option>
+    <option value="1">muz2</option>
+    <option value="2" selected>karpuz</option>
+
+</select><br>
+
+
+<button type="submit">Giriş Yap</button><br><br><br><br>
+
+<label><input type="checkbox" name="kural" value="1">Kuralları okudum ve kabul ediyorum.</label><br>
+
+<p>Yorum Özelliği aktif edilsin mi ?</p>
+
+<label>
+    <input type="radio" name="ozellik" value="1" checked>Evet
+</label>
+<label>
+    <input type="radio" name="ozellik" value="2">Hayır
+</label><br>
+
+<form>
+    <input list="tarayicilar">
+    <datalist id="tarayicilar">
+        <option value="Google Chrome" ></option>
+        <option value="Yandex"></option>
+        <option value="Mozilla"></option>
+    </datalist>
+</form><br>
+
+<input type="text"><br>
+<input type="password"><br>
+<input type="button" value="Giriş Yap"><br>
+<input type="submit" value="Gönder"></input><br>
+<input type="reset" value="reset"><br>
+
+
+<label>
+    <input type="checkbox" name="hobi[]" id="Bisiklet">Bisiklet
+</label>
+<label>
+    <input type="checkbox" name="hobi[]" id="Yürüyüş">Yürüyüş
+</label>
+<label>
+    <input type="checkbox" name="hobi[]" id="Piyano">Piyano
+</label><br>
+
+<label>
+    <input type="radio" name="cinsiyet" value="1">Erkek
+</label>
+<label>
+    <input type="radio" name="cinsiyet" value="2">Kadın
+</label><br>
+
+
+
+<input type="hidden" name="uye_Adi" value="3"><br>
+
+<input type="color" placeholder="Rengi Seç"><br>
+<input type="date"  placeholder="Tarihi Seç"><br>
+<input type="time"  placeholder="Saati Seç"><br>
+<input type="datetime-local"><br>
+<input type="email" placeholder="E-postanızı giriniz."><br>
+<input type="file" name="resim" id=""><br>
+<input type="image" src="https://prototurk.com/upload/img/html_cikti.png" width="100" height="" value="deneme"><br>
+<input type="week" placeholder="Haftayı seçin."><br>
+<input type="month" placeholder="Ayı Seç"><br>
+<input type="number" value="5"><br>
+<input type="range" min="0" max="4"><br>
+<input type="search" placeholder="Konularda ara."><br>
+<input type="tel" placeholder="telefon numarası"><br>
+<input type="url" placeholder="Web Adresiniz"><br>
+
+
+<form action="" method="post">
+    <input type="email" required placeholder="E-posta adresi" name="eposta"><br>
+    <input type="password" required placeholder="Şifreniz"><br>
+    <input type="url" required placeholder="Web Site Adresi">
+    <button type="button">Gönder</button>
+</form>
+
+
+
+
+
 </body>
 </html>
